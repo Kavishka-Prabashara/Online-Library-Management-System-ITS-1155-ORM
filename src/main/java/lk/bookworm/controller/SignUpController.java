@@ -24,12 +24,12 @@ public class SignUpController  {
     private TextField getUserPassword;
 
     @FXML
-    void btnLoginOnAction(ActionEvent event) {
+    private void btnLoginOnAction(ActionEvent event) {
 
     }
 
     @FXML
-    void btnSignUpOnAction(ActionEvent event) {
+    private void btnSignUpOnAction(ActionEvent event) {
 
     }
 
