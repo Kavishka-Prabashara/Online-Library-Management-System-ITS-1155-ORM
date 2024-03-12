@@ -1,0 +1,12 @@
+.anchorPane {
+    -fx-background-color: rgba(0, 0, 0, 0.51);
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+.anchorPane2{
+    -fx-background-color: rgb(16, 0, 0);
+}
+.image{
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+}
