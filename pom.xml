@@ -38,18 +38,24 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
-        </dependency>
+        </dependency><!--
         <dependency>
             <groupId>com.gluonhq</groupId>
             <artifactId>javafx</artifactId>
-            <version>16.0.2</version> <!-- Adjust version based on the latest available -->
+            <version>16.0.2</version> &lt;!&ndash; Adjust version based on the latest available &ndash;&gt;
             <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>com.gluonhq</groupId>
             <artifactId>charm-glisten</artifactId>
-            <version>6.0.5</version> <!-- Check for the latest version on Maven Central -->
+            <version>6.0.5</version> &lt;!&ndash; Check for the latest version on Maven Central &ndash;&gt;
         </dependency>
+
+--> <dependency>
+        <groupId>org.hibernate.orm</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>6.4.2.Final</version>
+    </dependency>
         <dependency>
             <groupId>com.gluonhq</groupId>
             <artifactId>client-maven-plugin</artifactId>
